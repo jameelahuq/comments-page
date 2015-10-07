@@ -17,6 +17,8 @@ System.config({
     "babel": "npm:babel-core@5.8.25",
     "babel-runtime": "npm:babel-runtime@5.8.25",
     "core-js": "npm:core-js@1.2.1",
+    "events": "github:jspm/nodelibs-events@0.1.1",
+    "flux": "npm:flux@2.1.1",
     "react": "npm:react@0.14.0-rc1",
     "react-dom": "npm:react-dom@0.14.0-rc1",
     "react-router": "npm:react-router@1.0.0-rc1",
@@ -85,11 +87,29 @@ System.config({
       "fs": "github:jspm/nodelibs-fs@0.1.2",
       "process": "github:jspm/nodelibs-process@0.1.2"
     },
+    "npm:fbemitter@2.0.0": {
+      "fbjs": "npm:fbjs@0.1.0-alpha.7",
+      "process": "github:jspm/nodelibs-process@0.1.2"
+    },
+    "npm:fbjs@0.1.0-alpha.7": {
+      "core-js": "npm:core-js@1.2.1",
+      "fs": "github:jspm/nodelibs-fs@0.1.2",
+      "path": "github:jspm/nodelibs-path@0.1.0",
+      "process": "github:jspm/nodelibs-process@0.1.2",
+      "promise": "npm:promise@7.0.4",
+      "whatwg-fetch": "npm:whatwg-fetch@0.9.0"
+    },
     "npm:fbjs@0.2.1": {
       "core-js": "npm:core-js@1.2.1",
       "process": "github:jspm/nodelibs-process@0.1.2",
       "promise": "npm:promise@7.0.4",
       "whatwg-fetch": "npm:whatwg-fetch@0.9.0"
+    },
+    "npm:flux@2.1.1": {
+      "fbemitter": "npm:fbemitter@2.0.0",
+      "fbjs": "npm:fbjs@0.1.0-alpha.7",
+      "immutable": "npm:immutable@3.7.5",
+      "process": "github:jspm/nodelibs-process@0.1.2"
     },
     "npm:history@1.12.2": {
       "deep-equal": "npm:deep-equal@1.0.1",

@@ -10,6 +10,8 @@
   "license": "ISC",
   "jspm": {
     "dependencies": {
+      "events": "github:jspm/nodelibs-events@^0.1.1",
+      "flux": "npm:flux@^2.1.1",
       "react": "npm:react@0.14.0-rc1",
       "react-dom": "npm:react-dom@0.14.0-rc1",
       "react-router": "npm:react-router@^1.0.0-rc1"
